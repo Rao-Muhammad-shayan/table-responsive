@@ -1,0 +1,106 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+}
+.container{
+ 
+    width: 70%;
+   height:700px ;
+    background: #282b33;
+    opacity: 1;
+    margin:  auto;
+}
+.heading{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+   padding-top: 50px
+}
+table{
+    
+ min-width: 580px;
+    width: 80%;
+  border: 2px solid #555; 
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th{
+    
+    border: 1px solid #555;
+    padding: 20px;
+
+}
+
+
+tr{
+    
+    border: 1px solid #0a0808;
+}
+#row-1{
+    color: #f0a322;
+    font-size: 24px;
+}
+.h5{
+    color: #000;
+    background-color: azure;
+
+}
+.h3{
+    background:rgb(254, 19, 19);
+    color: white;
+}
+.h2{
+    background: rgb(22, 164, 211);
+    color: white;
+}
+.h4{
+    background: rgba(243, 208, 8, 0.737);
+    color: white;
+} button:hover{
+    transform: scale(1.2);
+
+}
+#row-2{
+    color: rgba(199, 78, 78, 0.858);
+    font-size: 24px;
+}
+#row-3{
+    color: rgb(61, 188, 231);
+    font-size: 24px;
+}
+td{
+    padding:20px ;
+    text-align: center;
+    border: 1px solid #555;
+    color: white;
+    border-collapse: collapse;
+    font-family: "Playball", cursive;
+    
+}
+.fa-check{
+   color: darkorange;
+   font-size: 20px;
+}
+td>button{
+    color: white;
+    background: red;
+    width: 100px;
+    padding: 9px 16px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: rgba(221, 15, 15, 0.758);
+}
+button:focus{
+    color: black;
+    background-color: aqua;
+}
+td:hover{
+    background:#fff;
+    color: #000;
+}
